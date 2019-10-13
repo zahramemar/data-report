@@ -1,0 +1,38 @@
+Developer Take Home Interview Question
+
+Instructions:
+
+ 1. Create Feature 1 and optionally Feature 2 (listed below).
+ 2. If needed, provide a narrative on any special install instructions.
+ 3. Create a tar of the app, install instructions, and any 3rd party libraries
+    used.
+ 4. Send the tar to tsundvall@baffinbaynetworks.com
+
+Additional information:
+
+ * There is a basic app included that lists all entities contained in
+   data.json. You may choose to use and refactor/ extend this basic app to
+   create the feature(s) or you can start from scratch.
+ * You are free to choose any language.
+ * You are free to modify architectural details, for example server side
+   logic vs. client side.
+ * You can use any additional 3rd party libraries as long as you don't
+   violate licensing terms.
+ * You may use other documentation and/ or available web resources.
+ * Any third party code not written by you should be clearly identified as
+   such.
+
+Feature 1:
+
+Create a web based report that consumes data.json and outputs a list of
+systems and the following information:
+
+ * Owner of system and contact info
+ * The department the system belongs to and contact info
+ * A list of individuals that develop the system
+
+Feature 2 (optional):
+
+Design and implement a web-based visualization of your choosing for data.json.
+
+

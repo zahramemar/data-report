@@ -1,0 +1,105 @@
+{   
+    "entities": [
+        {
+            "id": 1,
+            "name": "Bill",
+            "type": "Person",
+            "email": "bill@example.com"
+        },
+        {
+            "id": 2,
+            "name": "David",
+            "type": "Person",
+            "email": "david@example.com"
+        },
+        {
+            "id": 3,
+            "name": "Julie",
+            "type": "Person",
+            "email": "julie@example.com"
+        },
+        {
+            "id": 4,
+            "name": "Student Grades",
+            "type": "System"
+        },
+        {
+            "id": 5,
+            "name": "HR Payroll",
+            "type": "System"
+        },
+        {
+            "id": 6,
+            "name": "Finance",
+            "type": "System"
+        },
+        {
+            "id": 7,
+            "name": "Finance",
+            "type": "Department",
+            "email": "finance@example.com"
+        },
+        {
+            "id": 8,
+            "name": "Pottery",
+            "type": "Department",
+            "email": "pottery@example.com"
+        }
+    ], 
+    "relationships": [
+        {
+            "id": 20,
+            "type": "belongs_to",
+            "start": 4,
+            "end": 8
+        },
+        {
+            "id": 21,
+            "type": "belongs_to",
+            "start": 5,
+            "end": 8
+        },
+        {
+            "id": 22,
+            "type": "belongs_to",
+            "start": 6,
+            "end": 8
+        },
+        {
+            "id": 23,
+            "type": "owns",
+            "start": 3,
+            "end": 4
+        },
+        {
+            "id": 24,
+            "type": "owns",
+            "start": 3,
+            "end": 5
+        },
+        {
+            "id": 25,
+            "type": "owns",
+            "start": 1,
+            "end": 6
+        },
+        {
+            "id": 26,
+            "type": "develops",
+            "start": 2,
+            "end": 6 
+        },
+        {
+            "id": 27,
+            "type": "develops",
+            "start": 1,
+            "end": 6
+        },
+        {
+            "id": 28,
+            "type": "develops",
+            "start": 3,
+            "end": 4
+        }
+    ]
+}

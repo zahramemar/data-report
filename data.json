@@ -1,0 +1,105 @@
+{   
+    "entities": [
+        {
+            "ID": 1,
+            "Name": "Bill",
+            "Type": "Person",
+            "email": "bill@example.com"
+        },
+        {
+            "ID": 2,
+            "Name": "David",
+            "Type": "Person",
+            "email": "david@example.com"
+        },
+        {
+            "ID": 3,
+            "Name": "Julie",
+            "Type": "Person",
+            "email": "julie@example.com"
+        },
+        {
+            "ID": 4,
+            "Name": "Student Grades",
+            "Type": "System"
+        },
+        {
+            "ID": 5,
+            "Name": "HR Payroll",
+            "Type": "System"
+        },
+        {
+            "ID": 6,
+            "Name": "Finance",
+            "Type": "System"
+        },
+        {
+            "ID": 7,
+            "Name": "Finance",
+            "Type": "Department",
+            "email": "finance@example.com"
+        },
+        {
+            "ID": 8,
+            "Name": "Pottery",
+            "Type": "Department",
+            "email": "pottery@example.com"
+        }
+    ], 
+    "relationships": [
+        {
+            "ID": 20,
+            "Type": "belongs_to",
+            "Start": 4,
+            "End": 8
+        },
+        {
+            "ID": 21,
+            "Type": "belongs_to",
+            "Start": 5,
+            "End": 8
+        },
+        {
+            "ID": 22,
+            "Type": "belongs_to",
+            "Start": 6,
+            "End": 8
+        },
+        {
+            "ID": 23,
+            "Type": "owns",
+            "Start": 3,
+            "End": 4
+        },
+        {
+            "ID": 24,
+            "Type": "owns",
+            "Start": 3,
+            "End": 5
+        },
+        {
+            "ID": 25,
+            "Type": "owns",
+            "Start": 1,
+            "End": 6
+        },
+        {
+            "ID": 26,
+            "Type": "develops",
+            "Start": 2,
+            "End": 6 
+        },
+        {
+            "ID": 27,
+            "Type": "develops",
+            "Start": 1,
+            "End": 6
+        },
+        {
+            "ID": 28,
+            "Type": "develops",
+            "Start": 3,
+            "End": 4
+        }
+    ]
+}
